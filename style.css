@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper_flex{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    /*height: 500px;*/
+    /*justify-content: space-around;*/
+    flex-direction: column;
+    align-items: flex-start;
+    /*width: 400px;*/
+    /*margin-bottom: 5em;*/
+    font-size:20px;
+    background-color: white;
+}
+.info:nth-child(1){
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    background-color:#271651;
+}
+.logo_img{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+.header__background{
+    background-image:url("main.jpg");
+    width: 1200px;
+    height: 400px;
+    background-size: cover;
+    order: 3;
+    justify-content: center;
+    background-color: #271651;
+    margin-top: 3px;
+}
+.info:nth-child(3){
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #271651;
+}
+.info:nth-child(4){
+    background-color: white;
+    border: 4px solid #271651;
+    padding: 25px;
+    height: 600px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #271651;
+}
+.contacts{
+    padding: 20px;
+    margin: 20px;
+    height: 250px;
+}
+.contacts h2{
+    color: #fdc516;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+.contacts h4{
+    color: #fdc516;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+}
+.contacts p{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding:10px;
+}
